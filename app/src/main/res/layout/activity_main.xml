@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background ="@drawable/homepagefinal">
+
+    <TextView
+        android:id="@+id/btnGenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Click me for TV show and Movie options!" />
+
+    <Button
+        android:id="@+id/btnAddWatchlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:layout_alignBottom="@+id/btnGenerate"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-260dp"
+        android:text="Add to watch list!"
+        android:textColor="@color/black"
+        android:background="@android:color/white"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/watchlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="23dp"
+        android:layout_alignBottom="@+id/btnGenerate"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-330dp"
+        android:text="Go To Watch List"
+        android:textColor="@color/black"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/mainHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_marginEnd="0dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:text="FilmFast" />
+
+</RelativeLayout>
+
